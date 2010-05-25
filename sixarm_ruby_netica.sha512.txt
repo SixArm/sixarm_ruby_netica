@@ -1,0 +1,1 @@
+60fbd79e73c9f7cb0164f10bc8c7b0daabebb51defa0db43721c598551804877f7f07a4e6c3fcb25d01494ca133cd0dcbd79273e63c90a58cb65f46faaf1b10c  sixarm_ruby_netica-1.0.8.gem

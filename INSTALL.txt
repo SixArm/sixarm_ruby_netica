@@ -1,0 +1,46 @@
+
+= SixArm.com Ruby Gem Install
+
+
+== Easy Way
+
+  gem install sixarm_ruby_netica --source http://sixarm.com 
+
+
+== Secure Way
+
+First get our SixArm.com secure signature gem certificate,
+then add us to your gem cert list and gem sources list.
+When you do this once, it works for all our SixArm gems.
+
+  wget http://sixarm.com/sixarm.pem
+  gem cert --add sixarm.pem   
+  gem sources --add http://sixarm.com
+
+Install the gem with testing and high security.
+
+  gem install sixarm_ruby_netica --test --trust-policy HighSecurity
+
+
+== Feeback
+
+Do you have any questions, comments, suggestions, or feedback?
+Let us know, we're happy to help. Our email is sixarm@sixarm.com
+
+Do you have a feature request? Something you want?
+Let us know because we want our gems to be successful.
+
+
+== High Security Notes
+
+Do you want to create your own high security gems?
+Learn how at http://www.rubygems.org/read/chapter/21
+
+To see your current gem certificate list:
+
+  sudo gem cert --list
+
+Our cert looks like this:
+
+  /C=US/ST=California/L=San Francisco/O=SixArm.com/OU=SixArm.com/CN=SixArm.com/emailAddress=sixarm@sixarm.com
+
