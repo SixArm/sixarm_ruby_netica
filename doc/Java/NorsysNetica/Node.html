@@ -1,489 +1,589 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-
-	<title>Class: Java::NorsysNetica::Node</title>
-
-	<link rel="stylesheet" href="../../rdoc.css" type="text/css" media="screen" />
-
-	<script src="../../js/jquery.js" type="text/javascript"
-		charset="utf-8"></script>
-	<script src="../../js/thickbox-compressed.js" type="text/javascript"
-		charset="utf-8"></script>
-	<script src="../../js/quicksearch.js" type="text/javascript"
-		charset="utf-8"></script>
-	<script src="../../js/darkfish.js" type="text/javascript"
-		charset="utf-8"></script>
-
-</head>
-<body class="class">
-
-	<div id="metadata">
-		<div id="file-metadata">
-			<div id="file-list-section" class="section">
-				<h3 class="section-header">In Files</h3>
-				<div class="section-body">
-					<ul>
-					
-						<li><a href="../../lib/sixarm_ruby_netica/node_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
-							class="thickbox" title="lib/sixarm_ruby_netica/node.rb">lib/sixarm_ruby_netica/node.rb</a></li>
-					
-					</ul>
-				</div>
-			</div>
-
-			
-		</div>
-
-		<div id="class-metadata">
-
-			<!-- Parent Class -->
-			
-			<div id="parent-class-section" class="section">
-				<h3 class="section-header">Parent</h3>
-				
-				<p class="link">Object</p>
-				
-			</div>
-			
-
-			<!-- Namespace Contents -->
-			
-
-			<!-- Method Quickref -->
-			
-			<div id="method-list-section" class="section">
-				<h3 class="section-header">Methods</h3>
-				<ul class="link-list">
-					
-					<li><a href="#M000022">#free</a></li>
-					
-					<li><a href="#M000016">#getKindSym</a></li>
-					
-					<li><a href="#M000017">#getTypeSym</a></li>
-					
-					<li><a href="#M000020">#pretty_print</a></li>
-					
-					<li><a href="#M000023">#state_belief_inspect</a></li>
-					
-					<li><a href="#M000021">#states</a></li>
-					
-					<li><a href="#M000018">#to_s</a></li>
-					
-					<li><a href="#M000019">#to_ss</a></li>
-					
-				</ul>
-			</div>
-			
-
-			<!-- Included Modules -->
-			
-		</div>
-
-		<div id="project-metadata">
-			
-			
-			<div id="fileindex-section" class="section project-section">
-				<h3 class="section-header">Files</h3>
-				<ul>
-				
-					<li class="file"><a href="../../INSTALL_txt.html">INSTALL.txt</a></li>
-				
-					<li class="file"><a href="../../LICENSE_txt.html">LICENSE.txt</a></li>
-				
-					<li class="file"><a href="../../README_rdoc.html">README.rdoc</a></li>
-				
-					<li class="file"><a href="../../sixarm_pem.html">sixarm.pem</a></li>
-				
-					<li class="file"><a href="../../sixarm_netica_gemspec.html">sixarm_netica.gemspec</a></li>
-				
-					<li class="file"><a href="../../sixarm_ruby_netica_sha512_txt.html">sixarm_ruby_netica.sha512.txt</a></li>
-				
-				</ul>
-			</div>
-			
-
-			<div id="classindex-section" class="section project-section">
-				<h3 class="section-header">Class Index
-					<span class="search-toggle"><img src="../../images/find.png"
-						height="16" width="16" alt="[+]"
-						title="show/hide quicksearch" /></span></h3>
-				<form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
-				<fieldset>
-					<legend>Quicksearch</legend>
-					<input type="text" name="quicksearch" value=""
-						class="quicksearch-field" />
-				</fieldset>
-				</form>
-
-				<ul class="link-list">
-				
-					<li><a href="../../Java.html">Java</a></li>
-				
-					<li><a href="../../Java/NorsysNetica.html">Java::NorsysNetica</a></li>
-				
-					<li><a href="../../Java/NorsysNetica/Environ.html">Java::NorsysNetica::Environ</a></li>
-				
-					<li><a href="../../Java/NorsysNetica/Net.html">Java::NorsysNetica::Net</a></li>
-				
-					<li><a href="../../Java/NorsysNetica/Node.html">Java::NorsysNetica::Node</a></li>
-				
-					<li><a href="../../Java/NorsysNetica/NodeList.html">Java::NorsysNetica::NodeList</a></li>
-				
-					<li><a href="../../Java/NorsysNetica/State.html">Java::NorsysNetica::State</a></li>
-				
-					<li><a href="../../Netica.html">Netica</a></li>
-				
-				</ul>
-				<div id="no-class-search-results" style="display: none;">No matching classes.</div>
-			</div>
-
-			
-		</div>
-	</div>
-
-	<div id="documentation">
-		<h1 class="class">Java::NorsysNetica::Node</h1>
-
-		<div id="description">
-			
-		</div>
-
-		<!-- Constants -->
-		
-		<div id="constants-list" class="section">
-			<h3 class="section-header">Constants</h3>
-			<dl>
-			
-				<dt><a name="NODE_KINDS">NODE_KINDS</a></dt>
-				
-				<dd class="description missing-docs">(Not documented)</dd>
-				
-			
-				<dt><a name="NODE_TYPES">NODE_TYPES</a></dt>
-				
-				<dd class="description missing-docs">(Not documented)</dd>
-				
-			
-			</dl>
-		</div>
-		
-
-		<!-- Attributes -->
-		
-
-		<!-- Methods -->
-		
-		<div id="public-instance-method-details" class="method-section section">
-			<h3 class="section-header">Public Instance Methods</h3>
-
-		
-			<div id="free-method" class="method-detail ">
-				<a name="M000022"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">free</span><span
-						class="method-args">()</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="free-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_netica/node.rb, line 60</span>
-60:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">free</span>()
-61:     <span class="ruby-keyword kw">begin</span>
-62:       <span class="ruby-identifier">finalize</span>()
-63:       <span class="ruby-identifier">delete</span>()
-64:       <span class="ruby-identifier">states</span>.<span class="ruby-identifier">each</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span> <span class="ruby-identifier">s</span><span class="ruby-operator">==</span><span class="ruby-keyword kw">nil</span> <span class="ruby-keyword kw">or</span> <span class="ruby-identifier">s</span>.<span class="ruby-identifier">free</span>() }
-65:     <span class="ruby-keyword kw">rescue</span> <span class="ruby-constant">Java</span><span class="ruby-operator">::</span><span class="ruby-constant">NorsysNetica</span><span class="ruby-operator">::</span><span class="ruby-constant">NeticaException</span>
-66:     <span class="ruby-keyword kw">end</span>
-67:   <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-			<div id="get-ind-ym-method" class="method-detail ">
-				<a name="M000016"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">getKindSym</span><span
-						class="method-args">()</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="get-ind-ym-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_netica/node.rb, line 16</span>
-16:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">getKindSym</span>()
-17:    <span class="ruby-keyword kw">return</span> <span class="ruby-constant">NODE_KINDS</span>[<span class="ruby-identifier">getKind</span>()]
-18:   <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-			<div id="get-ype-ym-method" class="method-detail ">
-				<a name="M000017"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">getTypeSym</span><span
-						class="method-args">()</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="get-ype-ym-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_netica/node.rb, line 20</span>
-20:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">getTypeSym</span>()
-21:    <span class="ruby-keyword kw">return</span> <span class="ruby-constant">NODE_TYPES</span>[<span class="ruby-identifier">getType</span>()]
-22:   <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-			<div id="pretty-print-method" class="method-detail ">
-				<a name="M000020"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">pretty_print</span><span
-						class="method-args">(q)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="pretty-print-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_netica/node.rb, line 38</span>
-38:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">pretty_print</span>(<span class="ruby-identifier">q</span>)
-39:     <span class="ruby-identifier">q</span>.<span class="ruby-identifier">group</span>(<span class="ruby-value">1</span>) {
-40:       <span class="ruby-identifier">q</span>.<span class="ruby-identifier">text</span> <span class="ruby-value str">&quot;Node&quot;</span>
-41:       <span class="ruby-identifier">q</span>.<span class="ruby-identifier">breakable</span>
-42:       <span class="ruby-identifier">q</span>.<span class="ruby-identifier">text</span> <span class="ruby-node">&quot;Name:#{getName()}&quot;</span>
-43:       <span class="ruby-identifier">q</span>.<span class="ruby-identifier">comma_breakable</span>
-44:       <span class="ruby-identifier">q</span>.<span class="ruby-identifier">text</span> <span class="ruby-node">&quot;Kind:#{getKindSym()}&quot;</span>
-45:       <span class="ruby-identifier">q</span>.<span class="ruby-identifier">comma_breakable</span>
-46:       <span class="ruby-identifier">q</span>.<span class="ruby-identifier">text</span> <span class="ruby-node">&quot;Type:#{getTypeSym()}&quot;</span>
-47:       <span class="ruby-identifier">q</span>.<span class="ruby-identifier">comma_breakable</span>
-48:       <span class="ruby-identifier">q</span>.<span class="ruby-identifier">text</span> <span class="ruby-node">&quot;BeliefUpdated:#{isBeliefUpdated()}&quot;</span>
-49:       <span class="ruby-identifier">q</span>.<span class="ruby-identifier">comma_breakable</span>
-50:       <span class="ruby-identifier">q</span>.<span class="ruby-identifier">text</span> <span class="ruby-node">&quot;Deterministic:#{isDeterministic()}&quot;</span>
-51:       <span class="ruby-identifier">q</span>.<span class="ruby-identifier">text</span> <span class="ruby-node">&quot;NumStates:#{getNumStates}&quot;</span>
-52:       <span class="ruby-identifier">q</span>.<span class="ruby-identifier">comma_breakable</span>
-53:     }
-54:   <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-			<div id="state-belief-inspect-method" class="method-detail ">
-				<a name="M000023"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">state_belief_inspect</span><span
-						class="method-args">()</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="state-belief-inspect-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_netica/node.rb, line 69</span>
-69:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">state_belief_inspect</span>
-70:     <span class="ruby-identifier">states</span>.<span class="ruby-identifier">map</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">state</span><span class="ruby-operator">|</span>
-71:      <span class="ruby-identifier">k</span> = <span class="ruby-identifier">state</span>.<span class="ruby-identifier">getName</span>()
-72:      <span class="ruby-identifier">v</span> = <span class="ruby-identifier">getBelief</span>(<span class="ruby-identifier">k</span>)
-73:       <span class="ruby-node">&quot;#{k}:#{v.round_to(0.01)}&quot;</span>
-74:     }.<span class="ruby-identifier">join</span>(<span class="ruby-value str">&quot;,&quot;</span>)
-75:   <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-			<div id="states-method" class="method-detail ">
-				<a name="M000021"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">states</span><span
-						class="method-args">()</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="states-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_netica/node.rb, line 56</span>
-56:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">states</span>()
-57:     <span class="ruby-keyword kw">return</span> (<span class="ruby-value">0</span><span class="ruby-operator">...</span><span class="ruby-identifier">getNumStates</span>()).<span class="ruby-identifier">map</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">i</span><span class="ruby-operator">|</span> <span class="ruby-identifier">state</span>(<span class="ruby-identifier">i</span>) }
-58:   <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-			<div id="to-s-method" class="method-detail ">
-				<a name="M000018"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">to_s</span><span
-						class="method-args">()</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="to-s-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_netica/node.rb, line 24</span>
-24:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">to_s</span>
-25:    <span class="ruby-value str">&quot;Node&quot;</span> <span class="ruby-operator">+</span>
-26:       <span class="ruby-node">&quot; Name:#{getName()}&quot;</span> <span class="ruby-operator">+</span>
-27:       <span class="ruby-node">&quot; Kind:#{getKindSym()}&quot;</span> <span class="ruby-operator">+</span>
-28:       <span class="ruby-node">&quot; Type:#{getTypeSym()}&quot;</span> <span class="ruby-operator">+</span>
-29:       <span class="ruby-node">&quot; BeliefUpdated:#{isBeliefUpdated()}&quot;</span> <span class="ruby-operator">+</span>
-30:       <span class="ruby-node">&quot; Deterministic:#{isDeterministic()}&quot;</span> <span class="ruby-operator">+</span>
-31:       <span class="ruby-node">&quot; NumStates:#{getNumStates}&quot;</span> 
-32:   <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-			<div id="to-ss-method" class="method-detail ">
-				<a name="M000019"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">to_ss</span><span
-						class="method-args">()</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="to-ss-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_netica/node.rb, line 34</span>
-34:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">to_ss</span>
-35:     <span class="ruby-identifier">to_s</span> <span class="ruby-operator">+</span> <span class="ruby-value str">&quot;\n&quot;</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">states</span>.<span class="ruby-identifier">map</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span> <span class="ruby-identifier">s</span>.<span class="ruby-identifier">to_ss</span>}.<span class="ruby-identifier">join</span>(<span class="ruby-value str">&quot;\n&quot;</span>) 
-36:   <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-		</div>
-	
-
-	</div>
-
-
-	<div id="rdoc-debugging-section-dump" class="debugging-section">
-	
-		<p>Disabled; run with --debug to generate this.</p>
-	
-	</div>
-
-	<div id="validator-badges">
-		<p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
-		<p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
-			Rdoc Generator</a> 1.1.6</small>.</p>
-	</div>
-
-</body>
+  <head>
+    <meta name="Content-Type" content="text/html; charset=utf-8" />
+<title>Class: Java::NorsysNetica::Node</title>
+<link rel="stylesheet" href="../../css/style.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="../../css/common.css" type="text/css" media="screen" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  relpath = '../..';
+  if (relpath != '') relpath += '/';
+</script>
+<script type="text/javascript" charset="utf-8" src="../../js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/app.js"></script>
+
+  </head>
+  <body>
+    <script type="text/javascript" charset="utf-8">
+      if (window.top.frames.main) document.body.className = 'frames';
+    </script>
+    
+    <div id="header">
+      <div id="menu">
+  
+    <a href="../../_index.html">Index (N)</a> &raquo; 
+    <span class='title'>Java</span> &raquo; <span class='title'>NorsysNetica</span>
+     &raquo; 
+    <span class="title">Node</span>
+  
+  
+  <div class="noframes"><span class="title">(</span><a href="." target="_top">no frames</a><span class="title">)</span></div>
+</div>
+
+      <div id="search">
+  <a id="class_list_link" href="#">Class List</a>
+  <a id="method_list_link" href="#">Method List</a>
+  <a id ="file_list_link" href="#">File List</a>
+</div>
+
+      <div class="clear"></div>
+    </div>
+    
+    <iframe id="search_frame"></iframe>
+    
+    <div id="content"><h1>Class: Java::NorsysNetica::Node
+  
+  
+  
+</h1>
+
+<dl class="box">
+  
+    <dt class="r1">Inherits:</dt>
+    <dd class="r1">
+      <span class="inheritName">Object</span>
+      
+        <ul class="fullTree">
+          <li>Object</li>
+          
+            <li class="next">Java::NorsysNetica::Node</li>
+          
+        </ul>
+        <a href="#" class="inheritanceTree">show all</a>
+      
+      </dd>
+    
+  
+  
+    
+  
+    
+  
+  
+  
+    <dt class="r2 last">Defined in:</dt>
+    <dd class="r2 last">lib/sixarm_ruby_netica/node.rb</dd>
+  
+</dl>
+<div class="clear"></div>
+
+
+  <h2>Constant Summary</h2>
+  
+    <dl class="constants">
+      
+        <dt id="NODE_KINDS-constant" class="">NODE_KINDS =
+          
+        </dt>
+        <dd><pre class="code"><span class='lbrace'>{</span>
+ <span class='const'>Java</span><span class='op'>::</span><span class='const'>NorsysNetica</span><span class='op'>::</span><span class='const'>Node</span><span class='op'>::</span><span class='const'>NATURE_NODE</span> <span class='op'>=&gt;</span> <span class='symbol'>:nature</span><span class='comma'>,</span>
+ <span class='const'>Java</span><span class='op'>::</span><span class='const'>NorsysNetica</span><span class='op'>::</span><span class='const'>Node</span><span class='op'>::</span><span class='const'>DECISION_NODE</span> <span class='op'>=&gt;</span> <span class='symbol'>:decision</span><span class='comma'>,</span>
+ <span class='const'>Java</span><span class='op'>::</span><span class='const'>NorsysNetica</span><span class='op'>::</span><span class='const'>Node</span><span class='op'>::</span><span class='const'>UTILITY_NODE</span> <span class='op'>=&gt;</span> <span class='symbol'>:utility</span><span class='comma'>,</span>
+ <span class='const'>Java</span><span class='op'>::</span><span class='const'>NorsysNetica</span><span class='op'>::</span><span class='const'>Node</span><span class='op'>::</span><span class='const'>CONSTANT_NODE</span> <span class='op'>=&gt;</span> <span class='symbol'>:constant</span><span class='comma'>,</span>
+ <span class='const'>Java</span><span class='op'>::</span><span class='const'>NorsysNetica</span><span class='op'>::</span><span class='const'>Node</span><span class='op'>::</span><span class='const'>DISCONNECTED_NODE</span> <span class='op'>=&gt;</span> <span class='symbol'>:disconnected</span><span class='comma'>,</span>
+<span class='rbrace'>}</span></pre></dd>
+      
+        <dt id="NODE_TYPES-constant" class="">NODE_TYPES =
+          
+        </dt>
+        <dd><pre class="code"><span class='lbrace'>{</span>
+ <span class='const'>Java</span><span class='op'>::</span><span class='const'>NorsysNetica</span><span class='op'>::</span><span class='const'>Node</span><span class='op'>::</span><span class='const'>DISCRETE_TYPE</span> <span class='op'>=&gt;</span> <span class='symbol'>:nature</span><span class='comma'>,</span>
+ <span class='const'>Java</span><span class='op'>::</span><span class='const'>NorsysNetica</span><span class='op'>::</span><span class='const'>Node</span><span class='op'>::</span><span class='const'>CONTINUOUS_TYPE</span> <span class='op'>=&gt;</span> <span class='symbol'>:decision</span><span class='comma'>,</span>
+<span class='rbrace'>}</span></pre></dd>
+      
+    </dl>
+  
+
+
+
+  
+    <h2>
+      Instance Method Summary
+      <small>(<a href="#" class="summary_toggle">collapse</a>)</small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#free-instance_method" title="#free (instance method)">- (Object) <strong>free</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#getKindSym-instance_method" title="#getKindSym (instance method)">- (Object) <strong>getKindSym</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#getTypeSym-instance_method" title="#getTypeSym (instance method)">- (Object) <strong>getTypeSym</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#pretty_print-instance_method" title="#pretty_print (instance method)">- (Object) <strong>pretty_print</strong>(q) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#state_belief_inspect-instance_method" title="#state_belief_inspect (instance method)">- (Object) <strong>state_belief_inspect</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#states-instance_method" title="#states (instance method)">- (Object) <strong>states</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#to_s-instance_method" title="#to_s (instance method)">- (Object) <strong>to_s</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#to_ss-instance_method" title="#to_ss (instance method)">- (Object) <strong>to_ss</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+
+
+  <div id="instance_method_details" class="method_details_list">
+    <h2>Instance Method Details</h2>
+    
+    
+      <div class="method_details first">
+  <p class="signature first" id="free-instance_method">
+  
+    - (<tt>Object</tt>) <strong>free</strong> 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+60
+61
+62
+63
+64
+65
+66
+67</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/node.rb', line 60</span>
+
+<span class='kw'>def</span> <span class='id free'>free</span><span class='lparen'>(</span><span class='rparen'>)</span>
+  <span class='kw'>begin</span>
+    <span class='id finalize'>finalize</span><span class='lparen'>(</span><span class='rparen'>)</span>
+    <span class='id delete'>delete</span><span class='lparen'>(</span><span class='rparen'>)</span>
+    <span class='id states'>states</span><span class='period'>.</span><span class='id each'>each</span><span class='lbrace'>{</span><span class='op'>|</span><span class='id s'>s</span><span class='op'>|</span> <span class='id s'>s</span><span class='op'>==</span><span class='kw'>nil</span> <span class='kw'>or</span> <span class='id s'>s</span><span class='period'>.</span><span class='id free'>free</span><span class='lparen'>(</span><span class='rparen'>)</span> <span class='rbrace'>}</span>
+  <span class='kw'>rescue</span> <span class='const'>Java</span><span class='op'>::</span><span class='const'>NorsysNetica</span><span class='op'>::</span><span class='const'>NeticaException</span>
+  <span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="getKindSym-instance_method">
+  
+    - (<tt>Object</tt>) <strong>getKindSym</strong> 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+16
+17
+18</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/node.rb', line 16</span>
+
+<span class='kw'>def</span> <span class='id getKindSym'>getKindSym</span><span class='lparen'>(</span><span class='rparen'>)</span>
+ <span class='kw'>return</span> <span class='const'>NODE_KINDS</span><span class='lbracket'>[</span><span class='id getKind'>getKind</span><span class='lparen'>(</span><span class='rparen'>)</span><span class='rbracket'>]</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="getTypeSym-instance_method">
+  
+    - (<tt>Object</tt>) <strong>getTypeSym</strong> 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+20
+21
+22</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/node.rb', line 20</span>
+
+<span class='kw'>def</span> <span class='id getTypeSym'>getTypeSym</span><span class='lparen'>(</span><span class='rparen'>)</span>
+ <span class='kw'>return</span> <span class='const'>NODE_TYPES</span><span class='lbracket'>[</span><span class='id getType'>getType</span><span class='lparen'>(</span><span class='rparen'>)</span><span class='rbracket'>]</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="pretty_print-instance_method">
+  
+    - (<tt>Object</tt>) <strong>pretty_print</strong>(q) 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/node.rb', line 38</span>
+
+<span class='kw'>def</span> <span class='id pretty_print'>pretty_print</span><span class='lparen'>(</span><span class='id q'>q</span><span class='rparen'>)</span>
+  <span class='id q'>q</span><span class='period'>.</span><span class='id group'>group</span><span class='lparen'>(</span><span class='int'>1</span><span class='rparen'>)</span> <span class='lbrace'>{</span>
+    <span class='id q'>q</span><span class='period'>.</span><span class='id text'>text</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Node</span><span class='tstring_end'>&quot;</span></span>
+    <span class='id q'>q</span><span class='period'>.</span><span class='id breakable'>breakable</span>
+    <span class='id q'>q</span><span class='period'>.</span><span class='id text'>text</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Name:</span><span class='embexpr_beg'>#{</span><span class='id getName'>getName</span><span class='lparen'>(</span><span class='rparen'>)</span><span class='rbrace'>}</span><span class='tstring_end'>&quot;</span></span>
+    <span class='id q'>q</span><span class='period'>.</span><span class='id comma_breakable'>comma_breakable</span>
+    <span class='id q'>q</span><span class='period'>.</span><span class='id text'>text</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Kind:</span><span class='embexpr_beg'>#{</span><span class='id getKindSym'>getKindSym</span><span class='lparen'>(</span><span class='rparen'>)</span><span class='rbrace'>}</span><span class='tstring_end'>&quot;</span></span>
+    <span class='id q'>q</span><span class='period'>.</span><span class='id comma_breakable'>comma_breakable</span>
+    <span class='id q'>q</span><span class='period'>.</span><span class='id text'>text</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Type:</span><span class='embexpr_beg'>#{</span><span class='id getTypeSym'>getTypeSym</span><span class='lparen'>(</span><span class='rparen'>)</span><span class='rbrace'>}</span><span class='tstring_end'>&quot;</span></span>
+    <span class='id q'>q</span><span class='period'>.</span><span class='id comma_breakable'>comma_breakable</span>
+    <span class='id q'>q</span><span class='period'>.</span><span class='id text'>text</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>BeliefUpdated:</span><span class='embexpr_beg'>#{</span><span class='id isBeliefUpdated'>isBeliefUpdated</span><span class='lparen'>(</span><span class='rparen'>)</span><span class='rbrace'>}</span><span class='tstring_end'>&quot;</span></span>
+    <span class='id q'>q</span><span class='period'>.</span><span class='id comma_breakable'>comma_breakable</span>
+    <span class='id q'>q</span><span class='period'>.</span><span class='id text'>text</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Deterministic:</span><span class='embexpr_beg'>#{</span><span class='id isDeterministic'>isDeterministic</span><span class='lparen'>(</span><span class='rparen'>)</span><span class='rbrace'>}</span><span class='tstring_end'>&quot;</span></span>
+    <span class='id q'>q</span><span class='period'>.</span><span class='id text'>text</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>NumStates:</span><span class='embexpr_beg'>#{</span><span class='id getNumStates'>getNumStates</span><span class='rbrace'>}</span><span class='tstring_end'>&quot;</span></span>
+    <span class='id q'>q</span><span class='period'>.</span><span class='id comma_breakable'>comma_breakable</span>
+  <span class='rbrace'>}</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="state_belief_inspect-instance_method">
+  
+    - (<tt>Object</tt>) <strong>state_belief_inspect</strong> 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+69
+70
+71
+72
+73
+74
+75</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/node.rb', line 69</span>
+
+<span class='kw'>def</span> <span class='id state_belief_inspect'>state_belief_inspect</span>
+  <span class='id states'>states</span><span class='period'>.</span><span class='id map'>map</span><span class='lbrace'>{</span><span class='op'>|</span><span class='id state'>state</span><span class='op'>|</span>
+   <span class='id k'>k</span> <span class='op'>=</span> <span class='id state'>state</span><span class='period'>.</span><span class='id getName'>getName</span><span class='lparen'>(</span><span class='rparen'>)</span>
+   <span class='id v'>v</span> <span class='op'>=</span> <span class='id getBelief'>getBelief</span><span class='lparen'>(</span><span class='id k'>k</span><span class='rparen'>)</span>
+    <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id k'>k</span><span class='rbrace'>}</span><span class='tstring_content'>:</span><span class='embexpr_beg'>#{</span><span class='id v'>v</span><span class='period'>.</span><span class='id round_to'>round_to</span><span class='lparen'>(</span><span class='float'>0.01</span><span class='rparen'>)</span><span class='rbrace'>}</span><span class='tstring_end'>&quot;</span></span>
+  <span class='rbrace'>}</span><span class='period'>.</span><span class='id join'>join</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>,</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="states-instance_method">
+  
+    - (<tt>Object</tt>) <strong>states</strong> 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+56
+57
+58</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/node.rb', line 56</span>
+
+<span class='kw'>def</span> <span class='id states'>states</span><span class='lparen'>(</span><span class='rparen'>)</span>
+  <span class='kw'>return</span> <span class='lparen'>(</span><span class='int'>0</span><span class='op'>...</span><span class='id getNumStates'>getNumStates</span><span class='lparen'>(</span><span class='rparen'>)</span><span class='rparen'>)</span><span class='period'>.</span><span class='id map'>map</span><span class='lbrace'>{</span><span class='op'>|</span><span class='id i'>i</span><span class='op'>|</span> <span class='id state'>state</span><span class='lparen'>(</span><span class='id i'>i</span><span class='rparen'>)</span> <span class='rbrace'>}</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="to_s-instance_method">
+  
+    - (<tt>Object</tt>) <strong>to_s</strong> 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+24
+25
+26
+27
+28
+29
+30
+31
+32</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/node.rb', line 24</span>
+
+<span class='kw'>def</span> <span class='id to_s'>to_s</span>
+ <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Node</span><span class='tstring_end'>&quot;</span></span> <span class='op'>+</span>
+    <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'> Name:</span><span class='embexpr_beg'>#{</span><span class='id getName'>getName</span><span class='lparen'>(</span><span class='rparen'>)</span><span class='rbrace'>}</span><span class='tstring_end'>&quot;</span></span> <span class='op'>+</span>
+    <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'> Kind:</span><span class='embexpr_beg'>#{</span><span class='id getKindSym'>getKindSym</span><span class='lparen'>(</span><span class='rparen'>)</span><span class='rbrace'>}</span><span class='tstring_end'>&quot;</span></span> <span class='op'>+</span>
+    <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'> Type:</span><span class='embexpr_beg'>#{</span><span class='id getTypeSym'>getTypeSym</span><span class='lparen'>(</span><span class='rparen'>)</span><span class='rbrace'>}</span><span class='tstring_end'>&quot;</span></span> <span class='op'>+</span>
+    <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'> BeliefUpdated:</span><span class='embexpr_beg'>#{</span><span class='id isBeliefUpdated'>isBeliefUpdated</span><span class='lparen'>(</span><span class='rparen'>)</span><span class='rbrace'>}</span><span class='tstring_end'>&quot;</span></span> <span class='op'>+</span>
+    <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'> Deterministic:</span><span class='embexpr_beg'>#{</span><span class='id isDeterministic'>isDeterministic</span><span class='lparen'>(</span><span class='rparen'>)</span><span class='rbrace'>}</span><span class='tstring_end'>&quot;</span></span> <span class='op'>+</span>
+    <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'> NumStates:</span><span class='embexpr_beg'>#{</span><span class='id getNumStates'>getNumStates</span><span class='rbrace'>}</span><span class='tstring_end'>&quot;</span></span> 
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="to_ss-instance_method">
+  
+    - (<tt>Object</tt>) <strong>to_ss</strong> 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+34
+35
+36</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/node.rb', line 34</span>
+
+<span class='kw'>def</span> <span class='id to_ss'>to_ss</span>
+  <span class='id to_s'>to_s</span> <span class='op'>+</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>\n</span><span class='tstring_end'>&quot;</span></span> <span class='op'>+</span> <span class='id states'>states</span><span class='period'>.</span><span class='id map'>map</span><span class='lbrace'>{</span><span class='op'>|</span><span class='id s'>s</span><span class='op'>|</span> <span class='id s'>s</span><span class='period'>.</span><span class='id to_ss'>to_ss</span><span class='rbrace'>}</span><span class='period'>.</span><span class='id join'>join</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>\n</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span> 
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+</div>
+    
+    <div id="footer">
+  Generated on Mon Dec 13 17:53:48 2010 by 
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.6.3 (ruby-1.9.2).
+</div>
+
+  </body>
 </html>
-

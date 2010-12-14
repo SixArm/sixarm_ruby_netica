@@ -1,322 +1,374 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <head>
+    <meta name="Content-Type" content="text/html; charset=utf-8" />
+<title>Module: Netica</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="css/common.css" type="text/css" media="screen" charset="utf-8" />
 
-	<title>Module: Netica</title>
+<script type="text/javascript" charset="utf-8">
+  relpath = '';
+  if (relpath != '') relpath += '/';
+</script>
+<script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/app.js"></script>
 
-	<link rel="stylesheet" href="./rdoc.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <script type="text/javascript" charset="utf-8">
+      if (window.top.frames.main) document.body.className = 'frames';
+    </script>
+    
+    <div id="header">
+      <div id="menu">
+  
+    <a href="_index.html">Index (N)</a> &raquo; 
+    
+    
+    <span class="title">Netica</span>
+  
+  
+  <div class="noframes"><span class="title">(</span><a href="." target="_top">no frames</a><span class="title">)</span></div>
+</div>
 
-	<script src="./js/jquery.js" type="text/javascript"
-		charset="utf-8"></script>
-	<script src="./js/thickbox-compressed.js" type="text/javascript"
-		charset="utf-8"></script>
-	<script src="./js/quicksearch.js" type="text/javascript"
-		charset="utf-8"></script>
-	<script src="./js/darkfish.js" type="text/javascript"
-		charset="utf-8"></script>
+      <div id="search">
+  <a id="class_list_link" href="#">Class List</a>
+  <a id="method_list_link" href="#">Method List</a>
+  <a id ="file_list_link" href="#">File List</a>
+</div>
 
-</head>
-<body class="module">
+      <div class="clear"></div>
+    </div>
+    
+    <iframe id="search_frame"></iframe>
+    
+    <div id="content"><h1>Module: Netica
+  
+  
+  
+</h1>
 
-	<div id="metadata">
-		<div id="file-metadata">
-			<div id="file-list-section" class="section">
-				<h3 class="section-header">In Files</h3>
-				<div class="section-body">
-					<ul>
-					
-						<li><a href="./lib/sixarm_ruby_netica/netica_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
-							class="thickbox" title="lib/sixarm_ruby_netica/netica.rb">lib/sixarm_ruby_netica/netica.rb</a></li>
-					
-					</ul>
-				</div>
-			</div>
+<dl class="box">
+  
+  
+    
+  
+    
+  
+  
+  
+    <dt class="r1 last">Defined in:</dt>
+    <dd class="r1 last">lib/sixarm_ruby_netica/netica.rb</dd>
+  
+</dl>
+<div class="clear"></div>
 
-			
-		</div>
 
-		<div id="class-metadata">
 
-			<!-- Parent Class -->
-			
 
-			<!-- Namespace Contents -->
-			
+  
+    <h2>
+      Instance Method Summary
+      <small>(<a href="#" class="summary_toggle">collapse</a>)</small>
+    </h2>
 
-			<!-- Method Quickref -->
-			
-			<div id="method-list-section" class="section">
-				<h3 class="section-header">Methods</h3>
-				<ul class="link-list">
-					
-					<li><a href="#M000008">#environ</a></li>
-					
-					<li><a href="#M000011">#finalizer</a></li>
-					
-					<li><a href="#M000010">#load_cases</a></li>
-					
-					<li><a href="#M000009">#load_net</a></li>
-					
-				</ul>
-			</div>
-			
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#environ-instance_method" title="#environ (instance method)">- (Object) <strong>environ</strong>(options = nil) </a>
+    
 
-			<!-- Included Modules -->
-			
-		</div>
+    
+  </span>
+  
+  
+  
+  
+  
+  
 
-		<div id="project-metadata">
-			
-			
-			<div id="fileindex-section" class="section project-section">
-				<h3 class="section-header">Files</h3>
-				<ul>
-				
-					<li class="file"><a href="./INSTALL_txt.html">INSTALL.txt</a></li>
-				
-					<li class="file"><a href="./LICENSE_txt.html">LICENSE.txt</a></li>
-				
-					<li class="file"><a href="./README_rdoc.html">README.rdoc</a></li>
-				
-					<li class="file"><a href="./sixarm_pem.html">sixarm.pem</a></li>
-				
-					<li class="file"><a href="./sixarm_netica_gemspec.html">sixarm_netica.gemspec</a></li>
-				
-					<li class="file"><a href="./sixarm_ruby_netica_sha512_txt.html">sixarm_ruby_netica.sha512.txt</a></li>
-				
-				</ul>
-			</div>
-			
-
-			<div id="classindex-section" class="section project-section">
-				<h3 class="section-header">Class Index
-					<span class="search-toggle"><img src="./images/find.png"
-						height="16" width="16" alt="[+]"
-						title="show/hide quicksearch" /></span></h3>
-				<form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
-				<fieldset>
-					<legend>Quicksearch</legend>
-					<input type="text" name="quicksearch" value=""
-						class="quicksearch-field" />
-				</fieldset>
-				</form>
-
-				<ul class="link-list">
-				
-					<li><a href="./Java.html">Java</a></li>
-				
-					<li><a href="./Java/NorsysNetica.html">Java::NorsysNetica</a></li>
-				
-					<li><a href="./Java/NorsysNetica/Environ.html">Java::NorsysNetica::Environ</a></li>
-				
-					<li><a href="./Java/NorsysNetica/Net.html">Java::NorsysNetica::Net</a></li>
-				
-					<li><a href="./Java/NorsysNetica/Node.html">Java::NorsysNetica::Node</a></li>
-				
-					<li><a href="./Java/NorsysNetica/NodeList.html">Java::NorsysNetica::NodeList</a></li>
-				
-					<li><a href="./Java/NorsysNetica/State.html">Java::NorsysNetica::State</a></li>
-				
-					<li><a href="./Netica.html">Netica</a></li>
-				
-				</ul>
-				<div id="no-class-search-results" style="display: none;">No matching classes.</div>
-			</div>
-
-			
-		</div>
-	</div>
-
-	<div id="documentation">
-		<h1 class="module">Netica</h1>
-
-		<div id="description">
-			
-		</div>
-
-		<!-- Constants -->
-		
-
-		<!-- Attributes -->
-		
-
-		<!-- Methods -->
-		
-		<div id="public-instance-method-details" class="method-section section">
-			<h3 class="section-header">Public Instance Methods</h3>
-
-		
-			<div id="environ-method" class="method-detail ">
-				<a name="M000008"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">environ</span><span
-						class="method-args">(options=nil)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p>
-Initialize the <a href="Netica.html">Netica</a> environment with default
-settings.
+  
+    <span class="summary_desc"><div class='inline'><p>
+Initialize the Netica environment with default settings.
 </p>
-					
+</div></span>
+  
+</li>
 
-					
-					<div class="method-source-code"
-						id="environ-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_netica/netica.rb, line 16</span>
-16:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">environ</span>(<span class="ruby-identifier">options</span>=<span class="ruby-keyword kw">nil</span>)
-17:    <span class="ruby-keyword kw">return</span> <span class="ruby-constant">Java</span><span class="ruby-operator">::</span><span class="ruby-constant">NorsysNetica</span><span class="ruby-operator">::</span><span class="ruby-constant">Environ</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">options</span>)
-18:   <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#finalizer-instance_method" title="#finalizer (instance method)">- (Object) <strong>finalizer</strong>(x) </a>
+    
 
-				
-			</div>
+    
+  </span>
+  
+  
+  
+  
+  
+  
 
-		
-			<div id="finalizer-method" class="method-detail ">
-				<a name="M000011"></a>
+  
+    <span class="summary_desc"><div class='inline'><p>
+Free an object then finalize it.
+</p>
+</div></span>
+  
+</li>
 
-				<div class="method-heading">
-				
-					<span class="method-name">finalizer</span><span
-						class="method-args">(x)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#load_cases-instance_method" title="#load_cases (instance method)">- (Object) <strong>load_cases</strong>(filepath) </a>
+    
 
-				<div class="method-description">
-					
-					<p>
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>
+Read rows of a typical file of cases.
+</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#load_net-instance_method" title="#load_net (instance method)">- (Object) <strong>load_net</strong>(filepath) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>
+Read a net file and compile it.
+</p>
+</div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+
+
+  <div id="instance_method_details" class="method_details_list">
+    <h2>Instance Method Details</h2>
+    
+    
+      <div class="method_details first">
+  <p class="signature first" id="environ-instance_method">
+  
+    - (<tt>Object</tt>) <strong>environ</strong>(options = nil) 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    <p>
+Initialize the Netica environment with default settings.
+</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+16
+17
+18</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/netica.rb', line 16</span>
+
+<span class='kw'>def</span> <span class='id environ'>environ</span><span class='lparen'>(</span><span class='id options'>options</span><span class='op'>=</span><span class='kw'>nil</span><span class='rparen'>)</span>
+ <span class='kw'>return</span> <span class='const'>Java</span><span class='op'>::</span><span class='const'>NorsysNetica</span><span class='op'>::</span><span class='const'>Environ</span><span class='period'>.</span><span class='id new'>new</span><span class='lparen'>(</span><span class='id options'>options</span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="finalizer-instance_method">
+  
+    - (<tt>Object</tt>) <strong>finalizer</strong>(x) 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    <p>
 Free an object then finalize it. This is typically for JRuby objects.
 </p>
-					
 
-					
-					<div class="method-source-code"
-						id="finalizer-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_netica/netica.rb, line 44</span>
-44:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">finalizer</span>(<span class="ruby-identifier">x</span>)
-45:    <span class="ruby-keyword kw">return</span> <span class="ruby-keyword kw">if</span> <span class="ruby-operator">!</span><span class="ruby-keyword kw">defined?</span>(<span class="ruby-identifier">x</span>) <span class="ruby-keyword kw">or</span> <span class="ruby-identifier">x</span><span class="ruby-operator">==</span><span class="ruby-keyword kw">nil</span>
-46:    <span class="ruby-keyword kw">begin</span>
-47:     <span class="ruby-identifier">x</span>.<span class="ruby-identifier">respond_to?</span>(<span class="ruby-value str">'free'</span>) <span class="ruby-keyword kw">and</span> <span class="ruby-identifier">x</span>.<span class="ruby-identifier">free</span>()
-48:    <span class="ruby-keyword kw">rescue</span>
-49:    <span class="ruby-keyword kw">end</span>
-50:    <span class="ruby-keyword kw">begin</span>
-51:     <span class="ruby-identifier">x</span>.<span class="ruby-identifier">respond_to?</span>(<span class="ruby-value str">'finalize'</span>) <span class="ruby-keyword kw">and</span> <span class="ruby-identifier">x</span>.<span class="ruby-identifier">finalize</span>()
-52:    <span class="ruby-keyword kw">rescue</span>
-53:    <span class="ruby-keyword kw">end</span>
-54:   <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
 
-				
-			</div>
+  </div>
+</div>
+<div class="tags">
+  
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
 
-		
-			<div id="load-cases-method" class="method-detail ">
-				<a name="M000010"></a>
 
-				<div class="method-heading">
-				
-					<span class="method-name">load_cases</span><span
-						class="method-args">(filepath)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/netica.rb', line 44</span>
 
-				<div class="method-description">
-					
-					<p>
+<span class='kw'>def</span> <span class='id finalizer'>finalizer</span><span class='lparen'>(</span><span class='id x'>x</span><span class='rparen'>)</span>
+ <span class='kw'>return</span> <span class='kw'>if</span> <span class='op'>!</span><span class='kw'>defined?</span><span class='lparen'>(</span><span class='id x'>x</span><span class='rparen'>)</span> <span class='kw'>or</span> <span class='id x'>x</span><span class='op'>==</span><span class='kw'>nil</span>
+ <span class='kw'>begin</span>
+  <span class='id x'>x</span><span class='period'>.</span><span class='id respond_to?'>respond_to?</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>'</span><span class='tstring_content'>free</span><span class='tstring_end'>'</span></span><span class='rparen'>)</span> <span class='kw'>and</span> <span class='id x'>x</span><span class='period'>.</span><span class='id free'>free</span><span class='lparen'>(</span><span class='rparen'>)</span>
+ <span class='kw'>rescue</span>
+ <span class='kw'>end</span>
+ <span class='kw'>begin</span>
+  <span class='id x'>x</span><span class='period'>.</span><span class='id respond_to?'>respond_to?</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>'</span><span class='tstring_content'>finalize</span><span class='tstring_end'>'</span></span><span class='rparen'>)</span> <span class='kw'>and</span> <span class='id x'>x</span><span class='period'>.</span><span class='id finalize'>finalize</span><span class='lparen'>(</span><span class='rparen'>)</span>
+ <span class='kw'>rescue</span>
+ <span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="load_cases-instance_method">
+  
+    - (<tt>Object</tt>) <strong>load_cases</strong>(filepath) 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    <p>
 Read rows of a typical file of cases. The cases are tab delimited format.
 The IO.readrows method is in the sixarm_ramp gem.
 </p>
-					
 
-					
-					<div class="method-source-code"
-						id="load-cases-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_netica/netica.rb, line 36</span>
-36:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">load_cases</span>(<span class="ruby-identifier">filepath</span>)
-37:    <span class="ruby-keyword kw">return</span> <span class="ruby-constant">IO</span>.<span class="ruby-identifier">readrows</span>(<span class="ruby-identifier">filepath</span>)
-38:   <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
 
-				
-			</div>
+  </div>
+</div>
+<div class="tags">
+  
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
 
-		
-			<div id="load-net-method" class="method-detail ">
-				<a name="M000009"></a>
 
-				<div class="method-heading">
-				
-					<span class="method-name">load_net</span><span
-						class="method-args">(filepath)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
+36
+37
+38</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/netica.rb', line 36</span>
 
-				<div class="method-description">
-					
-					<p>
+<span class='kw'>def</span> <span class='id load_cases'>load_cases</span><span class='lparen'>(</span><span class='id filepath'>filepath</span><span class='rparen'>)</span>
+ <span class='kw'>return</span> <span class='const'>IO</span><span class='period'>.</span><span class='id readrows'>readrows</span><span class='lparen'>(</span><span class='id filepath'>filepath</span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="load_net-instance_method">
+  
+    - (<tt>Object</tt>) <strong>load_net</strong>(filepath) 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    <p>
 Read a net file and compile it. The net file extensions is typically
 &#8217;.dne&#8217; or &#8217;.neta&#8217;.
 </p>
-					
-
-					
-					<div class="method-source-code"
-						id="load-net-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_netica/netica.rb, line 24</span>
-24:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">load_net</span>(<span class="ruby-identifier">filepath</span>)
-25:    <span class="ruby-identifier">streamer</span> = <span class="ruby-constant">Java</span><span class="ruby-operator">::</span><span class="ruby-constant">NorsysNetica</span><span class="ruby-operator">::</span><span class="ruby-constant">Streamer</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">filepath</span>)
-26:    <span class="ruby-identifier">net</span> = <span class="ruby-constant">Java</span><span class="ruby-operator">::</span><span class="ruby-constant">NorsysNetica</span><span class="ruby-operator">::</span><span class="ruby-constant">Net</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">streamer</span>)
-27:    <span class="ruby-identifier">net</span>.<span class="ruby-identifier">compile</span>()
-28:    <span class="ruby-keyword kw">return</span> <span class="ruby-identifier">net</span>
-29:   <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-		</div>
-	
-
-	</div>
 
 
-	<div id="rdoc-debugging-section-dump" class="debugging-section">
-	
-		<p>Disabled; run with --debug to generate this.</p>
-	
-	</div>
+  </div>
+</div>
+<div class="tags">
+  
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
 
-	<div id="validator-badges">
-		<p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
-		<p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
-			Rdoc Generator</a> 1.1.6</small>.</p>
-	</div>
 
-</body>
+24
+25
+26
+27
+28
+29</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/netica.rb', line 24</span>
+
+<span class='kw'>def</span> <span class='id load_net'>load_net</span><span class='lparen'>(</span><span class='id filepath'>filepath</span><span class='rparen'>)</span>
+ <span class='id streamer'>streamer</span> <span class='op'>=</span> <span class='const'>Java</span><span class='op'>::</span><span class='const'>NorsysNetica</span><span class='op'>::</span><span class='const'>Streamer</span><span class='period'>.</span><span class='id new'>new</span><span class='lparen'>(</span><span class='id filepath'>filepath</span><span class='rparen'>)</span>
+ <span class='id net'>net</span> <span class='op'>=</span> <span class='const'>Java</span><span class='op'>::</span><span class='const'>NorsysNetica</span><span class='op'>::</span><span class='const'>Net</span><span class='period'>.</span><span class='id new'>new</span><span class='lparen'>(</span><span class='id streamer'>streamer</span><span class='rparen'>)</span>
+ <span class='id net'>net</span><span class='period'>.</span><span class='id compile'>compile</span><span class='lparen'>(</span><span class='rparen'>)</span>
+ <span class='kw'>return</span> <span class='id net'>net</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+</div>
+    
+    <div id="footer">
+  Generated on Mon Dec 13 17:53:48 2010 by 
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.6.3 (ruby-1.9.2).
+</div>
+
+  </body>
 </html>
-
