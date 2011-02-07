@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 require 'java'
 require 'sixarm_ramp'
 import "norsys.netica.Environ"

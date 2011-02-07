@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 class Java::NorsysNetica::Environ
 
   def to_s
