@@ -204,12 +204,12 @@ Initialize the Netica environment with default settings.
       <pre class="lines">
 
 
-16
 17
-18</pre>
+18
+19</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/netica.rb', line 16</span>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/netica.rb', line 17</span>
 
 <span class='kw'>def</span> <span class='id environ'>environ</span><span class='lparen'>(</span><span class='id options'>options</span><span class='op'>=</span><span class='kw'>nil</span><span class='rparen'>)</span>
  <span class='kw'>return</span> <span class='const'>Java</span><span class='op'>::</span><span class='const'>NorsysNetica</span><span class='op'>::</span><span class='const'>Environ</span><span class='period'>.</span><span class='id new'>new</span><span class='lparen'>(</span><span class='id options'>options</span><span class='rparen'>)</span>
@@ -243,7 +243,6 @@ Free an object then finalize it. This is typically for JRuby objects.
       <pre class="lines">
 
 
-44
 45
 46
 47
@@ -253,10 +252,11 @@ Free an object then finalize it. This is typically for JRuby objects.
 51
 52
 53
-54</pre>
+54
+55</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/netica.rb', line 44</span>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/netica.rb', line 45</span>
 
 <span class='kw'>def</span> <span class='id finalizer'>finalizer</span><span class='lparen'>(</span><span class='id x'>x</span><span class='rparen'>)</span>
  <span class='kw'>return</span> <span class='kw'>if</span> <span class='op'>!</span><span class='kw'>defined?</span><span class='lparen'>(</span><span class='id x'>x</span><span class='rparen'>)</span> <span class='kw'>or</span> <span class='id x'>x</span><span class='op'>==</span><span class='kw'>nil</span>
@@ -299,12 +299,12 @@ The IO.readrows method is in the sixarm_ramp gem.
       <pre class="lines">
 
 
-36
 37
-38</pre>
+38
+39</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/netica.rb', line 36</span>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/netica.rb', line 37</span>
 
 <span class='kw'>def</span> <span class='id load_cases'>load_cases</span><span class='lparen'>(</span><span class='id filepath'>filepath</span><span class='rparen'>)</span>
  <span class='kw'>return</span> <span class='const'>IO</span><span class='period'>.</span><span class='id readrows'>readrows</span><span class='lparen'>(</span><span class='id filepath'>filepath</span><span class='rparen'>)</span>
@@ -339,15 +339,15 @@ Read a net file and compile it. The net file extensions is typically
       <pre class="lines">
 
 
-24
 25
 26
 27
 28
-29</pre>
+29
+30</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/netica.rb', line 24</span>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/netica.rb', line 25</span>
 
 <span class='kw'>def</span> <span class='id load_net'>load_net</span><span class='lparen'>(</span><span class='id filepath'>filepath</span><span class='rparen'>)</span>
  <span class='id streamer'>streamer</span> <span class='op'>=</span> <span class='const'>Java</span><span class='op'>::</span><span class='const'>NorsysNetica</span><span class='op'>::</span><span class='const'>Streamer</span><span class='period'>.</span><span class='id new'>new</span><span class='lparen'>(</span><span class='id filepath'>filepath</span><span class='rparen'>)</span>
@@ -365,9 +365,9 @@ Read a net file and compile it. The net file extensions is typically
 </div>
     
     <div id="footer">
-  Generated on Mon Dec 13 17:53:48 2010 by 
+  Generated on Sat Feb 12 16:22:12 2011 by 
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
-  0.6.3 (ruby-1.9.2).
+  0.6.4 (ruby-1.9.2).
 </div>
 
   </body>

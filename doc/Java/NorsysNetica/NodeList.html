@@ -79,7 +79,18 @@
 </dl>
 <div class="clear"></div>
 
+<h2>Overview</h2><div class="docstring">
+  <div class="discussion">
+    <p>
+-*- coding: utf-8 -*-
+</p>
 
+
+  </div>
+</div>
+<div class="tags">
+  
+</div>
 
 
   
@@ -196,16 +207,16 @@
       <pre class="lines">
 
 
-7
-8
 9
 10
 11
 12
-13</pre>
+13
+14
+15</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/node_list.rb', line 7</span>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/node_list.rb', line 9</span>
 
 <span class='kw'>def</span> <span class='id free'>free</span><span class='lparen'>(</span><span class='rparen'>)</span>
   <span class='kw'>begin</span>
@@ -232,12 +243,12 @@
       <pre class="lines">
 
 
-15
-16
-17</pre>
+17
+18
+19</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/node_list.rb', line 15</span>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/node_list.rb', line 17</span>
 
 <span class='kw'>def</span> <span class='id getName'>getName</span><span class='lparen'>(</span><span class='rparen'>)</span>
  <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_end'>&quot;</span></span>
@@ -260,12 +271,12 @@
       <pre class="lines">
 
 
-3
-4
-5</pre>
+5
+6
+7</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/node_list.rb', line 3</span>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/node_list.rb', line 5</span>
 
 <span class='kw'>def</span> <span class='id nodes'>nodes</span><span class='lparen'>(</span><span class='rparen'>)</span>
   <span class='kw'>return</span> <span class='lparen'>(</span><span class='int'>0</span><span class='op'>...</span><span class='id size'>size</span><span class='rparen'>)</span><span class='period'>.</span><span class='id map'>map</span><span class='lbrace'>{</span><span class='op'>|</span><span class='id i'>i</span><span class='op'>|</span> <span class='id getNode'>getNode</span><span class='lparen'>(</span><span class='id i'>i</span><span class='rparen'>)</span> <span class='rbrace'>}</span>
@@ -288,12 +299,12 @@
       <pre class="lines">
 
 
-19
-20
-21</pre>
+21
+22
+23</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/node_list.rb', line 19</span>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_netica/node_list.rb', line 21</span>
 
 <span class='kw'>def</span> <span class='id to_ss'>to_ss</span>
   <span class='id to_s'>to_s</span> <span class='op'>+</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>\n</span><span class='tstring_end'>&quot;</span></span> <span class='op'>+</span> <span class='id nodes'>nodes</span><span class='period'>.</span><span class='id map'>map</span><span class='lbrace'>{</span><span class='op'>|</span><span class='id n'>n</span><span class='op'>|</span> <span class='id n'>n</span><span class='period'>.</span><span class='id to_ss'>to_ss</span><span class='rbrace'>}</span><span class='period'>.</span><span class='id join'>join</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>\n</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
@@ -308,9 +319,9 @@
 </div>
     
     <div id="footer">
-  Generated on Mon Dec 13 17:53:48 2010 by 
+  Generated on Sat Feb 12 16:22:12 2011 by 
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
-  0.6.3 (ruby-1.9.2).
+  0.6.4 (ruby-1.9.2).
 </div>
 
   </body>
