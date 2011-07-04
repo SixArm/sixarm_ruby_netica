@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 =begin rdoc
 
 = SixArm.com » Ruby » Netica gem of helpers to connect to Norsys Netica API using JRuby
