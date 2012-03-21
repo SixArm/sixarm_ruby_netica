@@ -16,12 +16,14 @@ Gem::Specification.new do |s|
   SOURCES             = ['environ','net','netica','node','node_list','state']
   TESTERS             = []
 
-  s.files             = [".gemtest","Rakefile","README.md","LICENSE.txt"]
-                        ["lib/#{s.name}.rb"] + SOURCES.map{|x| "lib/#{s.name}/#{x}.rb"} +
-                        ["test/#{s.name}.rb"] + TESTERS.map{|x| "test/#{s.name}/#{x}"}
-  s.test_files        = SOURCES.map{|x| "test/#{s.name}/#{x}_test.rb"}
+  top_files           = [".gemtest", "Rakefile", "README.md", "VERSION"]
+  lib_files           = ["lib/#{s.name}.rb"] + SOURCES.map{|x| "lib/#{s.name}/#{x}.rb"} 
+  test_files          = ["test/#{s.name}_test.rb"] + SOURCES.map{|x| "test/#{s.name}/#{x}_test.rb"}
 
-  s.add_dependency('sixarm_ruby_ramp','>=1.7.2') 
+  s.files             = top_files + lib_files + test_files
+  s.test_files        = test_files
+
+  s.add_dependency('sixarm_ruby_ramp','>=2.7.2') 
   s.add_dependency('facets','>=2.7.0') 
 
 end
