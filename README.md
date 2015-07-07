@@ -41,8 +41,3 @@ To enable high security for all our gems:
 To install with high security:
 
     gem install sixarm_ruby_netica --trust-policy HighSecurity
-
-
-## Changes
-
-* 2012-03-14 1.0.8 Update docs, tests
