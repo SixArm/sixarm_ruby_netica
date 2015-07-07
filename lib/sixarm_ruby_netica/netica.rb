@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-require 'java'
-require 'sixarm_ramp'
+require "java"
+require "sixarm_ramp"
 import "norsys.netica.Environ"
 import "norsys.netica.Net"
 import "norsys.netica.NeticaException"
