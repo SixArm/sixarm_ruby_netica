@@ -1,4 +1,4 @@
-SixArm.com → Ruby → <br> Netica gem of helpers to connect to Norsys Netica API using JRuby
+# SixArm.com → Ruby → <br> Netica gem of helpers to connect to Norsys Netica API using JRuby
 
 * Doc: <http://sixarm.com/sixarm_ruby_netica/doc>
 * Gem: <http://rubygems.org/gems/sixarm_ruby_netica>
