@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
 
   s.name              = "sixarm_ruby_netica"
-  s.summary           = "SixArm.com » Ruby » Netica"
+  s.summary           = "SixArm.com → Ruby → Netica"
   s.description       = "Netica connector from Ruby to Norsys Netica analytics engine using JRuby and Java."
   s.version           = "1.0.9"
 
